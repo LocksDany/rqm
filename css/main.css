@@ -1,0 +1,106 @@
+/*Setting Bases*/
+body {
+    margin-top: 60px;
+    background-color: black;
+}
+
+.background {
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+    display: block;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+h1 {
+    font-family: 'Cormorant';
+    font-size: 50px;
+    color:white;
+}
+
+span{
+    font-family: 'Slabo 27px';
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Slabo 27px';
+    font-size: 30px;
+    color:antiquewhite;
+}
+
+
+.main-block{
+    background: radial-gradient(#a53e03, #471d00);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #471d00;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.quote{
+    background-color: rgba(104, 70, 46, 0.3);
+    border-radius: 3px;
+}
+
+#gen-button{
+    font-family: 'Slabo 27px';
+    font-size: 20px;
+    background-color: #823102;
+    border-style: solid;
+    border-color: #573117;
+    color: antiquewhite;
+}
+
+#gen-button:hover{
+    color: #823102;
+    background-color: antiquewhite;
+}
+
+.twitter {
+    background-color: #823102;
+    border-style: solid;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    border-color: #573117;
+    color: antiquewhite;
+}
+
+.twitter:hover{
+    color: #823102;
+    background-color: antiquewhite;
+}
+
+/*For Testing*/
+.border{
+    border-style: solid;
+    border-color: white;
+}
+
+
+@media only screen and (max-width: 385px){
+    span .twitter-text{
+        display: none;
+    }
+    .twitter{
+        border-radius: 25px;
+    }
+}
