@@ -61,6 +61,10 @@ p {
     border-radius: 3px;
 }
 
+.author{
+    text-align: right;
+}
+
 #gen-button{
     font-family: 'Slabo 27px';
     font-size: 20px;
@@ -75,6 +79,10 @@ p {
     background-color: antiquewhite;
 }
 
+a {
+    color:antiquewhite!important;
+}
+
 .twitter {
     background-color: #823102;
     border-style: solid;
@@ -85,7 +93,7 @@ p {
 }
 
 .twitter:hover{
-    color: #823102;
+    color: #823102!important;
     background-color: antiquewhite;
 }
 
