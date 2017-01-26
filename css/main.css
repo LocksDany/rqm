@@ -1,6 +1,6 @@
 /*Setting Bases*/
 body {
-    margin-top: 60px;
+    margin-top: 50px;
     background-color: black;
 }
 
@@ -95,6 +95,11 @@ a {
 .twitter:hover{
     color: #823102!important;
     background-color: antiquewhite;
+}
+
+.credits{
+    font-family: 'Cormorant';
+    font-size: 18px;
 }
 
 /*For Testing*/
