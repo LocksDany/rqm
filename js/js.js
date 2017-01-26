@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#gen-button").on('click', function(){
    $.getJSON("/js/json/quotes.json", function(json){
       var html = "";
-       var id = Math.floor(Math.random() * 2);
+       var id = Math.floor(Math.random() * 32);
        
        json = json.filter(function(val){
           return (val.id == id); 
