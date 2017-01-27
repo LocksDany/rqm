@@ -3,7 +3,7 @@ $(document).ready(function(){
     var quoteContent = [];
     
     $("#gen-button").on('click', function(){
-   $.getJSON("/js/json/quotes.json", function(json){
+   $.getJSON("js/json/quotes.json", function(json){
       var html = "";
        var id = Math.floor(Math.random() * 32);
        
